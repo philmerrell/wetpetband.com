@@ -39,13 +39,7 @@ jobs:
         run: |
           cd client
           sudo npm install -g @angular/cli > /dev/null
-          sudo npm install 
-
-      # Runs a set of commands using the runners shell
-#       - name: Test Client
-#         run: |
-#           cd client && npm install
-#           ng test --configuration=ci
+          sudo npm install
 
       - name: Build Client
         run: |
