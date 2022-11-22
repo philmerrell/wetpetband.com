@@ -1,26 +1,43 @@
 
-<!-- <div style="width: 100%; height: 100%; position: relative;"> -->
-
-<!-- </div> -->
-<ion-content>
+<!-- <div style="width: 100%; height: 100%; position: relative;">
+  <img style="width: 100%" src="/assets/buildings.jpg">
+</div> -->
+<ion-content class="ion-padding">
   
-  <video [muted]="'muted'" autoplay loop="true" id="myVideo" style="width: 100%">
+  <!-- <video [muted]="'muted'" autoplay loop="true" id="myVideo" style="width: 100%">
     <source src="/assets/1.mp4" type="video/mp4">
-  </video>
+  </video> -->
   <ion-grid>
-    <img style="width: 300px; margin-top: 30px; margin-left: 20px;" src="/assets/logo.png">
+    <img style="width: 400px; margin-top: 20px;" src="/assets/logo-black.png">
     <ion-row>
-      <ion-col size="8">
-        <!-- <div appParallax [ratio]="-0.2" class="ion-padding">
-          <img style="width: 100%" src="/assets/buildings.jpg">
-        </div> -->
+      <ion-col size="12" size-sm="8">
+        <div id="bio" class="ion-padding">
+          <p>Some people describe Wet Pet as a pyramid scheme, but that is an unsubstantiated nasty rumor. Due to our out of court settlement we are in no way obligated to admit any wrong doing. Here at Wet Pet headquarters, we abhor terms like “pyramid scheme” to describe our band. We prefer the term “triangle opportunity”.</p>
+
+          <p>In Euclidean geometry, any three points, when non-collinear, determine a unique triangle and simultaneously, a unique plane. What does that mean? We have no fucking clue. What we do know is that the 3 vertices that make the Wet Pet triangle are Steve on drums and keys, Hyrum on bass and vocals, and Phil on guitar and vocals.</p>
+
+          <p>Those fortunate enough to invest in Wet Pet in the beginning have seen a 10x return on their investment. Shareholders describe Wet Pet’s music as consistent with the tradition of DIY music scene that has emerged from the Pacific Northwest. Overdriven melodies paired with spacious guitar and backed by driving rhythms are balanced out with thoughtful wordplay.</p> 
+
+          <p>At first listen, Merrell’s sardonic vocal delivery might be interpreted as nihilistic, and at times, you’d be right. “When I go walking through the graveyard at midnight I see a lot of people I’d probably dislike.” However, at other times Wet Pet reflects on love and the absurdity of life that can range from literal to dada-esque.</p>
+
+          <p>Plus, you become a platinum member if you bring three friends to our shows that bring three friends. 
+        </div>
       </ion-col>
-      <ion-col size="4">
-        <ion-list>
-          <ion-item button>
-            <ion-icon slot="start" name="logo-instagram"></ion-icon>
-          </ion-item>
-        </ion-list>
+      <ion-col size="12" size-sm="4">
+        <h1 style="font-size: 48px;">LOOK AT US!</h1>
+        <ion-button expand="block" shape="round">
+          <ion-icon name="logo-instagram" slot="start"></ion-icon>
+          Wet Pet on Instagram
+        </ion-button>
+        <div class="photos">
+          <ion-img src="/assets/photos/wet-pet.jpeg"></ion-img>
+          <ion-img src="/assets/photos/steve.jpeg"></ion-img>
+          <ion-img src="/assets/photos/hyrum.jpeg"></ion-img>
+          <ion-img src="/assets/photos/phil.jpeg"></ion-img>
+        </div>
+        <div style="background: rgba(255,255,255); padding: 3px 3px 3px 20px;">
+          <h2>Courtesy of <a href="https://www.instagram.com/campjohnmeloncougar/" target="_blank">@campjohnmeloncougar</a></h2>
+        </div>
       </ion-col>
     </ion-row>
   </ion-grid>

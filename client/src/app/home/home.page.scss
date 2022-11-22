@@ -1,3 +1,24 @@
+
+ion-content {
+  --background: url('/assets/buildings.jpeg');
+  background-size: contain;
+  --color: #000;
+  font-family: 'Reenie Beanie';
+}
+
+#bio {
+  // background: rgba(255,255,255, 0.3) !important;
+  font-size: 48px;
+  
+}
+
+.photos {
+  ion-img {
+    border: #fff solid 10px;
+    margin-bottom: 10px;
+  }
+}
+
 #container {
   text-align: center;
 
