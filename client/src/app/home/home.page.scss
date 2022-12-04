@@ -2,13 +2,56 @@
 ion-content {
   --background: url('/assets/buildings.jpeg');
   background-size: contain;
+  background-position: center;
   --color: #000;
   font-family: 'Reenie Beanie';
 }
 
+#blog {
+  ion-card {
+    --background: rgba(255,255,255, 0.5);
+    border: 1px solid black;
+    
+    .list-ios {
+      background: transparent;
+
+      ion-item {
+        --background: rgba(255,255,255, 0.5);
+      }
+
+    }
+  }
+}
+
+#shows {
+  h1 {
+    font-size: 70px;
+    margin-bottom: -20px;
+  }
+
+  ion-card {
+    --background: rgba(255,255,255, 0.5);
+    border: 1px solid black;
+    
+    .list-ios {
+      background: transparent;
+
+      ion-item {
+        --background: rgba(255,255,255, 0.5);
+      }
+
+    }
+  }
+
+}
+
 #bio {
+  h1 {
+    font-size: 70px;
+    margin-bottom: -20px;
+  }
   // background: rgba(255,255,255, 0.3) !important;
-  font-size: 48px;
+  font-size: 38px;
   
 }
 

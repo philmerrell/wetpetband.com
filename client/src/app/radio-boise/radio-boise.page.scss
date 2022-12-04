@@ -1,0 +1,25 @@
+
+ion-content {
+    --background: url('/assets/buildings.jpeg');
+    background-size: contain;
+    --color: #000;
+    background-position: center;
+    font-family: 'Reenie Beanie';
+  }
+
+  h1 {
+    margin-left: 20px;
+    font-size: 55px;
+    text-shadow: 2px 2px 0 white;
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 40px;
+        text-shadow: 2px 2px 0 white;
+      }
+  }
